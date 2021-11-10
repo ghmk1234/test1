@@ -10,5 +10,5 @@
     opt Extra response
     Bob->>Alice: Thanks for asking
     end
-​```
+```
 
