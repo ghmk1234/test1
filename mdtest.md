@@ -11,11 +11,6 @@
     Bob->>Alice: Thanks for asking
     end
 ​```
-
-:root {
-  --sequence-theme: hand
-}
-
 ```sequence
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
