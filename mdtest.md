@@ -1,4 +1,5 @@
-```flowchart TB
+```mermaid
+flowchart TB
     aNode
     bNode
     cNode
