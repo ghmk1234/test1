@@ -1,7 +1,9 @@
-```mermaid
-graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-end
+flowchart TB
+    aNode
+    bNode
+    cNode
+    dNode
+    eNode
+    fNode[cNode]
+    aNode --> bNode --> cNode --> dNode
+    aNode <--> eNode <--> fNode <--> dNode
